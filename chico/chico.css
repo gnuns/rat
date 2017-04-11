@@ -1,0 +1,33 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+a:focus {
+  outline: 0;
+  outline: none;
+}
+.navbar-default {
+  border:none;
+  padding: 20px 0px;;
+  border-radius: 0px;
+  background-color: rgba(0, 100, 0, 1);
+}
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+  color: #fff;
+  opacity: 1;
+}
+.navbar-header .navbar-brand {
+  color: #fff;
+  font-size: 34px;
+  margin-top: -4px;
+}
+.navbar-header .navbar-brand:hover,
+.navbar-header .navbar-brand:focus {
+  color: #fff;
+}
