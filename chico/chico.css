@@ -49,86 +49,87 @@ a:focus {
 }
 /* line 42, chico.scss */
 .navbar-default .navbar-header .navbar-brand {
+  font-family: 'Pacifico', cursive;
   color: #fff;
-  font-size: 34px;
-  margin-top: -4px;
+  font-size: 37px;
+  margin-top: -7px;
 }
-/* line 47, chico.scss */
+/* line 48, chico.scss */
 .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
   color: #fff;
 }
 
-/* line 54, chico.scss */
+/* line 55, chico.scss */
 .blog {
   margin-top: 50px;
 }
-/* line 56, chico.scss */
+/* line 57, chico.scss */
 .blog .blog-post {
   display: table;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 60, chico.scss */
+/* line 61, chico.scss */
 .blog .blog-post .info {
   width: 100%;
   display: table;
 }
-/* line 63, chico.scss */
+/* line 64, chico.scss */
 .blog .blog-post .info .author-avatar {
   width: 36px;
   float: left;
   margin-right: 10px;
   display: block;
 }
-/* line 68, chico.scss */
+/* line 69, chico.scss */
 .blog .blog-post .info .author-avatar img {
   width: 36px;
 }
-/* line 72, chico.scss */
+/* line 73, chico.scss */
 .blog .blog-post .info .detail {
   display: block;
   float: left;
 }
-/* line 75, chico.scss */
+/* line 76, chico.scss */
 .blog .blog-post .info .detail .name {
   padding: 0px;
   margin-top: -2px;
   font-size: 15px;
 }
-/* line 80, chico.scss */
+/* line 81, chico.scss */
 .blog .blog-post .info .detail .date {
   font-size: 12px;
   margin-top: -2px;
   color: rgba(0, 0, 0, 0.4);
 }
-/* line 87, chico.scss */
+/* line 88, chico.scss */
 .blog .blog-post .title {
   font-size: 29px;
   font-weight: 500;
   margin-top: 5px;
   margin-bottom: 20px;
 }
-/* line 93, chico.scss */
+/* line 94, chico.scss */
 .blog .blog-post .title a {
   color: rgba(0, 0, 0, 0.8) !important;
 }
-/* line 98, chico.scss */
+/* line 99, chico.scss */
 .blog .blog-post .content .highlight-image {
   margin-bottom: 10px;
   width: 100%;
   max-height: 180px;
   overflow: hidden;
 }
-/* line 103, chico.scss */
+/* line 104, chico.scss */
 .blog .blog-post .content .highlight-image img {
   width: 100%;
 }
-/* line 107, chico.scss */
+/* line 108, chico.scss */
 .blog .blog-post .content .read-more {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4) !important;
 }
-/* line 112, chico.scss */
+/* line 113, chico.scss */
 .blog .blog-post .info-bottom {
   width: 100%;
   font-size: 15px;
@@ -136,11 +137,11 @@ a:focus {
   padding: 25px 0px;
   display: table;
 }
-/* line 118, chico.scss */
+/* line 119, chico.scss */
 .blog .blog-post .info-bottom .likes {
   float: left;
 }
-/* line 121, chico.scss */
+/* line 122, chico.scss */
 .blog .blog-post .info-bottom .comments, .blog .blog-post .info-bottom .bookmark {
   margin-left: 10px;
   float: right;
