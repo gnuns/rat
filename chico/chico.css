@@ -1,38 +1,147 @@
+/* line 2, chico.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: rgba(0,0,0,.6)
+  color: rgba(0, 0, 0, 0.6);
 }
+
+/* line 6, chico.scss */
+a {
+  color: darkgreen !important;
+}
+/* line 8, chico.scss */
+a:hover {
+  text-decoration: none;
+}
+/* line 11, chico.scss */
 a:focus {
   outline: 0;
   outline: none;
 }
+
+/* line 16, chico.scss */
 .navbar-default {
-  border:none;
-  padding: 20px 0px;;
+  border: none;
+  padding: 20px 0px;
   border-radius: 0px;
-  background-color: rgba(0, 100, 0, 1);
+  background-color: darkgreen !important;
 }
-.navbar-default .navbar-nav li a i {
-  font-size: 24px;
-  margin-top: -6px;
+/* line 21, chico.scss */
+.navbar-default a {
+  color: #fff !important;
 }
+/* line 24, chico.scss */
 .navbar-default .navbar-nav li a {
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0.85;
 }
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:focus {
+/* line 30, chico.scss */
+.navbar-default .navbar-nav li a i {
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: -6px;
+}
+/* line 36, chico.scss */
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
   color: #fff;
   opacity: 1;
 }
-.navbar-header .navbar-brand {
+/* line 42, chico.scss */
+.navbar-default .navbar-header .navbar-brand {
   color: #fff;
   font-size: 34px;
   margin-top: -4px;
 }
-.navbar-header .navbar-brand:hover,
-.navbar-header .navbar-brand:focus {
+/* line 47, chico.scss */
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
   color: #fff;
+}
+
+/* line 54, chico.scss */
+.blog {
+  margin-top: 50px;
+}
+/* line 56, chico.scss */
+.blog .blog-post {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 60, chico.scss */
+.blog .blog-post .info {
+  width: 100%;
+  display: table;
+}
+/* line 63, chico.scss */
+.blog .blog-post .info .author-avatar {
+  width: 36px;
+  float: left;
+  margin-right: 10px;
+  display: block;
+}
+/* line 68, chico.scss */
+.blog .blog-post .info .author-avatar img {
+  width: 36px;
+}
+/* line 72, chico.scss */
+.blog .blog-post .info .detail {
+  display: block;
+  float: left;
+}
+/* line 75, chico.scss */
+.blog .blog-post .info .detail .name {
+  padding: 0px;
+  margin-top: -2px;
+  font-size: 15px;
+}
+/* line 80, chico.scss */
+.blog .blog-post .info .detail .date {
+  font-size: 12px;
+  margin-top: -2px;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* line 87, chico.scss */
+.blog .blog-post .title {
+  font-size: 29px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* line 93, chico.scss */
+.blog .blog-post .title a {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+/* line 98, chico.scss */
+.blog .blog-post .content .highlight-image {
+  margin-bottom: 10px;
+  width: 100%;
+  max-height: 180px;
+  overflow: hidden;
+}
+/* line 103, chico.scss */
+.blog .blog-post .content .highlight-image img {
+  width: 100%;
+}
+/* line 107, chico.scss */
+.blog .blog-post .content .read-more {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+/* line 112, chico.scss */
+.blog .blog-post .info-bottom {
+  width: 100%;
+  font-size: 15px;
+  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  padding: 25px 0px;
+  display: table;
+}
+/* line 118, chico.scss */
+.blog .blog-post .info-bottom .likes {
+  float: left;
+}
+/* line 121, chico.scss */
+.blog .blog-post .info-bottom .comments, .blog .blog-post .info-bottom .bookmark {
+  margin-left: 10px;
+  float: right;
 }
