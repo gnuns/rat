@@ -1,4 +1,4 @@
-#### Gúgol blog
+### Gúgol blog
 References:
 * https://www.blog.google/
 * https://www.blog.google/topics/machine-learning/making-ai-work-for-everyone/
